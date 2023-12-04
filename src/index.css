@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    @apply  tracking-wide text-green-700 transition-colors duration-200 
+  }
+  
+  .default{
+    @apply  text-white transition-colors duration-200 hover:text-gray-400
+  }
+
+  .btn-primary{
+    @apply md:mb-0 py-1 px-4 md:px-8 md:py-2 text-lg rounded  text-white bg-green-700 hover:bg-gray-500
+  }
